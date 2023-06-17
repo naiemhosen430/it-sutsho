@@ -1,15 +1,30 @@
-import React from "react"
-import Menu from "./components/Home"
-import Hero from "./components/Hero"
+import { createBrowserRouter } from "react-router-dom"
 
-function App() {
+import Home from "./pages/Home"
+import Main from "./pages/mAIN.JSX"
+import Contract from "./pages/Contract"
+import About from "./pages/About"
 
-  return (
-    <>
-      <Menu />
-      <Hero />
-    </>
-  )
-}
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Main />,
+    children: [
+      {
+        path: "/",
+        element: <Home />
+      },
+      {
+        path: "/contract",
+        element: <Contract />
+      },
+      {
+        path: "/about",
+        element: <About />
+      }
+    ]
+  }
+])
 
-export default App
+
+export default router
