@@ -1,11 +1,11 @@
-import React from "react";
+
 
 
 function Menu () {
     return (
         <>
-        <section className="bg-success d-flex justify-content-center py-2 px-4">
-            <div className="text-bolder text-light pt-0 fs-3 col-3">It's Utsho</div>
+        <section className="bg-success sticky-top d-flex justify-content-center py-2 px-4">
+            <div className="text-bolder text-light pt-0 fs-3 col-3">Its Utsho</div>
             <ul className="nav col-7">
                 <li className="nav-item"><a className="nav-link" href="">Home</a></li>
                 <li className="nav-item"><a className="nav-link" href="">Home</a></li>

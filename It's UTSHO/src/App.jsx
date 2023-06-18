@@ -1,9 +1,10 @@
 import { createBrowserRouter } from "react-router-dom"
 
 import Home from "./pages/Home"
-import Main from "./pages/mAIN.JSX"
+
 import Contract from "./pages/Contract"
 import About from "./pages/About"
+import Main from "./pages/Main"
 
 const router = createBrowserRouter([
   {

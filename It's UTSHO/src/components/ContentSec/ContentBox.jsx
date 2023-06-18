@@ -1,10 +1,9 @@
-import React from 'react'
-import "../../components/ContentSec"
+
 
 export default function ContentBox(ContentBox) {
   return (
     <>
-        <section className='d-flex my-5 py-5 justidy-content-center'>
+        <section className='d-flex my-5 py-5 animation justidy-content-center'>
             <div className='col-5 p-4'>
                 <img src="" alt="" />
             </div>
